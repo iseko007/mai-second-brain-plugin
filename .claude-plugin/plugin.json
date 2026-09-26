@@ -1,5 +1,6 @@
 {
   "name": "mai-second-brain",
+  "displayName": "MAI Second Brain",
   "version": "1.0.0",
   "description": "Build and use your MAI Second Brain from your AI chat: map your projects, save chats as notes, get a daily web brief on your topics, and review your week.",
   "author": { "name": "Inteli Seko EOOD", "email": "ivo@maicontext.com", "url": "https://maicontext.com" },
@@ -8,5 +9,8 @@
   "license": "MIT",
   "icon": "./.claude-plugin/icon.png",
   "privacyPolicyUrl": "https://maicontext.com/privacy",
+  "termsOfServiceUrl": "https://maicontext.com/terms",
+  "supportUrl": "https://maicontext.com/mcp-server/docs#support",
+  "documentationUrl": "https://maicontext.com/mcp-server/docs#start-here",
   "keywords": ["second-brain", "notes", "productivity", "meetings", "mcp"]
 }
