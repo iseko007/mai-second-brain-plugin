@@ -1,0 +1,13 @@
+interface:
+  display_name: "Weekly review"
+  short_description: "Your week in MAI: wins, slips, stale tasks and next week's focus"
+  default_prompt: "Run my weekly review"
+policy:
+  allow_implicit_invocation: true
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "mai-second-brain"
+      description: "MAI Second Brain"
+      transport: "streamable_http"
+      url: "https://maicontext.com/mcp"

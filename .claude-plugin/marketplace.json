@@ -1,0 +1,15 @@
+{
+  "name": "mai-second-brain",
+  "description": "The MAI Second Brain plugin: starter skills plus the MAI connector.",
+  "owner": {
+    "name": "Inteli Seko EOOD",
+    "email": "ivo@maicontext.com"
+  },
+  "plugins": [
+    {
+      "name": "mai-second-brain",
+      "source": "./",
+      "description": "Build and use your MAI Second Brain from your AI chat: map your projects, save chats as notes, get a daily web brief on your topics, and review your week."
+    }
+  ]
+}

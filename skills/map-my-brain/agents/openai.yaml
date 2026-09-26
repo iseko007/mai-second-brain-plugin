@@ -1,0 +1,13 @@
+interface:
+  display_name: "Map my brain"
+  short_description: "Turn what your assistant knows about you into projects, notes and focus in MAI"
+  default_prompt: "Map my second brain from what you know about me"
+policy:
+  allow_implicit_invocation: true
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "mai-second-brain"
+      description: "MAI Second Brain"
+      transport: "streamable_http"
+      url: "https://maicontext.com/mcp"

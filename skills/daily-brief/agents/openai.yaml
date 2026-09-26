@@ -1,0 +1,13 @@
+interface:
+  display_name: "Daily brief"
+  short_description: "Web research on your topics, saved to MAI as a note you can read or hear"
+  default_prompt: "Set up my daily brief"
+policy:
+  allow_implicit_invocation: true
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "mai-second-brain"
+      description: "MAI Second Brain"
+      transport: "streamable_http"
+      url: "https://maicontext.com/mcp"

@@ -1,0 +1,13 @@
+interface:
+  display_name: "Save to brain"
+  short_description: "Save this chat as a structured note in the right MAI project"
+  default_prompt: "Save this chat to my brain"
+policy:
+  allow_implicit_invocation: true
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "mai-second-brain"
+      description: "MAI Second Brain"
+      transport: "streamable_http"
+      url: "https://maicontext.com/mcp"

@@ -1,0 +1,5 @@
+{
+  "mcpServers": {
+    "mai": { "type": "http", "url": "https://maicontext.com/mcp" }
+  }
+}
