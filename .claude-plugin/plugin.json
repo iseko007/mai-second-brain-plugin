@@ -5,5 +5,8 @@
   "author": { "name": "Inteli Seko EOOD", "email": "ivo@maicontext.com", "url": "https://maicontext.com" },
   "homepage": "https://maicontext.com/mcp-server/docs#start-here",
   "repository": "https://github.com/iseko007/mai-second-brain-plugin",
+  "license": "MIT",
+  "icon": "./.claude-plugin/icon.png",
+  "privacyPolicyUrl": "https://maicontext.com/privacy",
   "keywords": ["second-brain", "notes", "productivity", "meetings", "mcp"]
 }

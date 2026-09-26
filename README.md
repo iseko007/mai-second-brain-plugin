@@ -28,6 +28,11 @@ The plugin brings the MAI connector with it: run `/mcp`, pick `plugin:mai-second
 
 **ChatGPT.** The skills are coming to the MAI Second Brain plugin for ChatGPT.
 
-## Privacy
+## What this plugin runs, sends and fetches
 
-The skills run inside your AI app and talk only to MAI's connector. Notes and tasks they create live in your own MAI account. See https://maicontext.com/privacy.
+- **Runs:** nothing on your machine. The plugin is four instruction files (skills) and one remote MCP server entry. There are no scripts, hooks or packages.
+- **Connects to:** one server, MAI's connector at `https://maicontext.com/mcp`, which you sign in to with your MAI account (OAuth).
+- **Sends to MAI:** only what a skill saves for you, after you say so: note text (title, sections, tags), project details (name, emoji, description, goal, keywords), tasks and your Current Focus. `save-to-brain` sends a summary of the current conversation, never the raw transcript. To read, the skills list your projects, notes, meetings and tasks through the same connector.
+- **Fetches:** `daily-brief` uses your assistant's own web search to read news on the topics you choose. It keeps your private plans out of those searches.
+
+Everything the skills save lives in your own MAI account. Privacy policy: [maicontext.com/privacy](https://maicontext.com/privacy). License: MIT.
