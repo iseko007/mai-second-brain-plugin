@@ -1,7 +1,7 @@
 {
   "name": "mai-second-brain",
   "displayName": "MAI Second Brain",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Build and use your MAI Second Brain from your AI chat: map your projects, save chats as notes, get a daily web brief on your topics, and review your week.",
   "author": { "name": "Inteli Seko EOOD", "email": "ivo@maicontext.com", "url": "https://maicontext.com" },
   "homepage": "https://maicontext.com/mcp-server/docs#start-here",
