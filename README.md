@@ -13,7 +13,9 @@ Four skills that put your AI chat to work on your [MAI Second Brain](https://mai
 
 ## Install
 
-**Claude Code.** Run:
+**Claude (web, desktop and mobile) and Cowork.** Open **Customize → Plugins** in claude.ai or the Claude desktop app, search Discover for **MAI Second Brain** and click **Add**. Then open the plugin's **Connectors** tab and connect MAI with your account. Say "map my brain", or type `/` and pick the skill.
+
+**Claude Code.** A plugin you add on claude.ai arrives in Claude Code on its own the next time you start it signed in to the same account. Or install it from the command line:
 
 ```
 /plugin marketplace add iseko007/mai-second-brain-plugin
@@ -22,9 +24,7 @@ Four skills that put your AI chat to work on your [MAI Second Brain](https://mai
 
 The plugin brings the MAI connector with it: run `/mcp`, pick `plugin:mai-second-brain:mai` and sign in with your MAI account. Then say "map my brain", or type `/mai-second-brain:map-my-brain`.
 
-**Claude Desktop (Cowork).** Add the same marketplace, `iseko007/mai-second-brain-plugin`, in the app's plugin settings and install **mai-second-brain**.
-
-**claude.ai and the Claude apps.** Download the skills from https://maicontext.com/mcp-server/docs#start-here and upload each ZIP under **Customize → Skills**. Connect MAI under **Settings → Connectors** if you haven't yet.
+**Only the skills.** Download them from https://maicontext.com/mcp-server/docs#start-here and upload each ZIP under **Customize → Skills**, with MAI connected under **Customize → Connectors**.
 
 **ChatGPT.** The skills are coming to the MAI Second Brain plugin for ChatGPT.
 
